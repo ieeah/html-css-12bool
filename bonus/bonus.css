@@ -5,29 +5,34 @@
     box-sizing: border-box;
 }
 
-.box {
+body {
+    background-color: whitesmoke;
+    margin: 30px;
+}
+
+.bg-red {
+background-color: red;
+}
+
+.bg-brown {
+    background-color: brown;
+}
+
+.bg-skin {
+    background-color: #edcfbb;
+}
+
+.bg-black {
+    background-color: black;;
+}
+
+.bg-blue {
     background-color: dodgerblue;
-    border: 1px solid white;
-    text-align: center;
-    padding: 10px;
-    color: white;
-    min-height: 40px;
 }
 
-.nest {
-    background-color: greenyellow;
-    border: 1px solid dodgerblue;
-    color: black;
-}
-
-.mb30px {
-    margin-bottom: 30px;
-}
-
-section {
+.bg-gold {
     background-color: goldenrod;
-    border-radius: 15px;
-    padding-block: 30px;
-    width: 90%;
-    margin: 0 auto;
+}
+.row {
+    height: 40px;
 }
