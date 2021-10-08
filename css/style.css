@@ -1,6 +1,7 @@
-/* GENERAL RESET */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.box {
+    background-color: dodgerblue;
+    border: 1px solid white;
+    text-align: center;
+    padding-block: 10px;
+    color: white;
 }
